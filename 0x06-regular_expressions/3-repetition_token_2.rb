@@ -1,3 +1,2 @@
-#!/usr/bin/env bash
-#bash script that displays the PID, process name, of bash processes
-pgrep -l bash
+#!/usr/bin/env ruby
+puts ARGV[0].scan(/hb*tn/)
