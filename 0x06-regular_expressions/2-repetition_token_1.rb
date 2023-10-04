@@ -1,4 +1,2 @@
-#!/usr/bin/env bash
-#bash script to easily get the PID of your bash process
-# shellcheck disable=SC2009
-ps afux | grep bash
+#!/usr/bin/env ruby
+puts ARGV[0].scan(/hb*tn/)
