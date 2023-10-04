@@ -1,3 +1,2 @@
-#!/usr/bin/env bash
-#bash script that displays a list of currently running processes
-ps afux
+#!/usr/bin/env ruby
+puts ARGV[0].scan(/hbt*n/)
